@@ -278,9 +278,10 @@ The target infrastructure was identified as:
 
 ### Evidence
 
-**pp1** — DNS lookup results.
+**pp1 — DNS lookup results**
 
-<img src="./EVIDENCE/p1.jpeg" alt="DNS lookup" width="400"/>
+<img src="./EVIDENCE/pp1.jpeg" alt="DNS lookup results" width="400"/>
+
 
 ---
 
@@ -293,9 +294,13 @@ WHOIS information was reviewed to understand the target's external footprint.
 * **pp2** — WHOIS information
 * **pp5** — Additional domain information
 
-![PP2 - WHOIS](./evidence/pp2.png)
+**pp2 — WHOIS information**
 
-![PP5 - WHOIS Information](./evidence/pp5.png)
+<img src="./EVIDENCE/pp2.jpeg" alt="WHOIS information" width="600"/>
+
+**pp5 — Additional domain information**
+
+<img src="./EVIDENCE/pp5.jpeg" alt="Domain information" width="600"/>
 
 ---
 
@@ -307,9 +312,9 @@ Weaknesses were identified involving password authentication and protection agai
 
 ### Evidence
 
-**pp3** — Authentication testing.
+**pp3 — Authentication testing**
 
-![PP3 - Authentication Testing](./evidence/pp3.png)
+<img src="./EVIDENCE/pp3.jpeg" alt="Authentication testing" width="600"/>
 
 ---
 
@@ -319,9 +324,10 @@ Burp Suite was used to inspect HTTP communication and identify the authenticatio
 
 ### Evidence
 
-**pp7** — HTTP request analysis.
+**pp7 — HTTP request analysis**
 
-![PP7 - Burp Suite](./evidence/pp7.png)
+<img src="./EVIDENCE/pp7.jpeg" alt="Burp Suite HTTP analysis" width="600"/>
+
 
 ---
 
@@ -337,19 +343,18 @@ Three encrypted laboratory reports were identified:
 
 **Sensitive patient information must be redacted before public GitHub publication.**
 
+
 ### Evidence
 
-* **pp8** — Patient report
-* **pp9** — Patient report
-* **pp13** — Patient report
+**pp8 — Patient report (redacted)**  
+<img src="./EVIDENCE/pp8.jpeg" alt="Redacted patient report" width="600"/>
 
-![PP8 - Redacted Patient Report](./evidence/pp8.png)
+**pp9 — Patient report (redacted)**  
+<img src="./EVIDENCE/pp9.jpeg" alt="Redacted patient report" width="600"/>
 
-![PP9 - Redacted Patient Report](./evidence/pp9.png)
+**pp13 — Patient report (redacted)**  
+<img src="./EVIDENCE/pp13.jpeg" alt="Redacted patient report" width="600"/>
 
-![PP13 - Redacted Patient Report](./evidence/pp13.png)
-
----
 
 ## M1 Conclusion
 
@@ -387,9 +392,8 @@ Assess whether the passwords protecting PDF documents could be recovered using c
 * **pp10** — Hash extraction
 * **pp11** — Extracted hash
 
-![PP10 - PDF Hash Extraction](./evidence/pp10.png)
-
-![PP11 - Extracted Hash](./evidence/pp11.png)
+<img src="./EVIDENCE/pp10.jpeg" alt="PDF hash extraction" width="600"/>
+<img src="./EVIDENCE/pp11.jpeg" alt="Extracted hash" width="600"/>
 
 ---
 
@@ -408,12 +412,10 @@ John the Ripper and appropriate wordlists were used to assess password strength.
 * **pp12** — Password recovery
 * **pp14** — Password recovery
 * **pp16** — Password recovery
-
-![PP12 - Password Recovery](./evidence/pp12.png)
-
-![PP14 - Password Recovery](./evidence/pp14.png)
-
-![PP16 - Password Recovery](./evidence/pp16.png)
+  
+<img src="./EVIDENCE/pp12.jpeg" alt="Password recovery" width="600"/>
+<img src="./EVIDENCE/pp14.jpeg" alt="Password recovery" width="600"/>
+<img src="./EVIDENCE/pp16.jpeg" alt="Password recovery" width="600"/>
 
 ---
 
@@ -456,7 +458,7 @@ Database backups may contain large amounts of sensitive information.
 
 **pp6** — Exposed resources.
 
-![PP6 - Exposed Resources](./evidence/pp6.png)
+<img src="./EVIDENCE/pp6.jpeg" alt="Exposed resources" width="600"/>
 
 ---
 
@@ -472,8 +474,7 @@ Database analysis indicated exposure of staff-related information, including:
 ### Evidence
 
 **pp18** — Staff data exposure.
-
-![PP18 - Staff Data Exposure](./evidence/pp18.png)
+<img src="./EVIDENCE/pp18.jpeg" alt="Staff data exposure" width="600"/>
 
 ---
 
@@ -490,7 +491,7 @@ The exposed database also contained shareholder-related information, including:
 
 **pp17** — Shareholder information.
 
-![PP17 - Shareholder Data Exposure](./evidence/pp17.png)
+<img src="./EVIDENCE/pp17.jpeg" alt="Shareholder data exposure" width="600"/>
 
 ---
 
@@ -508,7 +509,7 @@ Public resources exposed additional information about the application environmen
 
 **pp6**
 
-![PP6 - Directory and Information Exposure](./evidence/pp6.png)
+<img src="./EVIDENCE/pp17.jpeg" alt="Shareholder data exposure" width="600"/>
 
 ---
 
