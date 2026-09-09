@@ -21,7 +21,7 @@
 
 ---
 
-## DISCLAIMER — AUTHORIZED USE ONLY
+## ⚠️ DISCLAIMER — AUTHORIZED USE ONLY ⚠️ 
 
 > **IMPORTANT:** This project was conducted as an authorized cybersecurity assessment in a controlled environment.
 
@@ -33,8 +33,17 @@ Testing followed the defined scope and rules of engagement. Denial-of-service an
 
 Sensitive information from the original assessment must be redacted before publication.
 
-**Never use these techniques against systems without explicit authorization.**
+ **Do not misuse this knowledge.** Unauthorized access to computer systems is illegal and punishable under law.  
+The author, **Networkwalks**, and the **Instructor** will **not be responsible** for any misuse of this information.  
+Every action you take is **your own responsibility**.
 
+ ⚠️ Misuse can lead to:
+ 
+- Criminal charges  
+- Heavy fines  
+- Loss of employment  
+- A permanent criminal record 
+    
 ---
 
 # Executive Summary
