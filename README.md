@@ -280,7 +280,7 @@ The target infrastructure was identified as:
 
 **pp1** — DNS lookup results.
 
-<img src="./EVIDENCE/p1.jpeg" alt="DNS Reconnaissance" width="400"/>
+<img src="./EVIDENCE/p1.jpeg" alt="DNS lookup" width="400"/>
 
 ---
 
